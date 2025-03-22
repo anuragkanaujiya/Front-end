@@ -1,0 +1,127 @@
+.container{
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 300px;
+    z-index: 1;
+    position: relative;
+    height: fit-content; 
+    background-color: #00ff99;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffc2b8;
+    background-image: linear-gradient(69deg, #ffc2b8 0%, #FF6A88 55%, #ff3ca0 100%);
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    
+    
+}
+.tree{
+    z-index: -1;
+    position:absolute; 
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%); 
+    height: 45%;
+    filter: blur(0.09rem); 
+    /* backdrop-filter: blur(10px); */
+    
+    
+}
+.treecon{
+}
+#image{
+   
+    /* height: 50%; */
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 4; */
+    
+    
+    /* align-content: center; */
+}
+#imag{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    /* height: 100%; */
+    width: 90%;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+}
+#imag:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(101, 87, 87, 0.56) 0px 22px 40px 4px;
+}
+.content{
+    
+    justify-content: center;
+    /* backdrop-filter: blur(1px); */
+    
+    align-items: center;
+}
+h1 ,h3 ,p{
+    text-align: center;
+    transition: all 0.3s ease-out;
+    color: rgb(230, 241, 248);
+}
+h1:hover,h3:hover,p:hover{
+    transform: scale(1.07);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.bu{
+    display: flex;
+    justify-content: center;
+}
+    
+    .button1 {background-image: linear-gradient(to right, #fb80c6 0%, #f9005b  51%, #ff3ca0  100%)}
+    .button1 {
+       /* margin: 10px; */
+       padding: 2px 45px;
+       text-align: center;
+       /* text-transform: uppercase; */
+       transition: all 0.5s;
+       background-size: 300% auto;
+       /* color: white;             */
+       /* box-shadow: 0 0 20px #eee; */
+       border-radius: 30px;
+       border: none;
+       filter: blur(0.5px); 
+       /* display: block;   /  */
+     }
+
+     .button1:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       filter: blur(0px); 
+       /* text-decoration: none; */
+     }
+    
+
+
+ .pa{
+    color: #eee;
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: linear-gradient(30deg, #cd9cf2 0%, #f6f3ff 100%);
+    background-attachment: fixed;
+}
